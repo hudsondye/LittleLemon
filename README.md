@@ -1,7 +1,8 @@
 # LittleLemon
 Meta Backend Developer Certification final capstone project on Coursera
 
-API Paths to be tested:
+Routes to be tested:
+/restaurants/
 /restaurant/menu/
 /restaurant/booking/
 
