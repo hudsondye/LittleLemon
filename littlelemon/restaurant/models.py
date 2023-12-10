@@ -11,8 +11,10 @@ class Menu(models.Model):
         return f'{self.title} : {str(self.price)}'
 
 class Booking(models.Model):
-    id = models.SmallIntegerField(primary_key=True)
-    name = models.CharField(max_length=255)
-    no_of_guests = models.SmallIntegerField()
-    bookingdate = models.DateTimeField()
+    first_name = models.CharField(max_length=255)
+    reservation_date = models.DateTimeField()
+    reservation_slot = models.SmallIntegerField(default=10)
 
+        
+    def __str__(self): 
+        return self.first_name
