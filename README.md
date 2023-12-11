@@ -2,6 +2,6 @@
 Meta Backend Developer Certification final capstone project on Coursera
 
 
-Django Admin Credentials:
-Username: testuser
-Password: passwordpassword
+Django Admin Credentials:<br>
+Username: testuser<br>
+Password: passwordpassword<br>
